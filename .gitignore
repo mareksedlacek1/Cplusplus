@@ -1,0 +1,32 @@
+# Build directories
+/build/
+/bin/
+/out/
+
+# Compiled objects / executables
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.a
+
+# ignore common no-extension executables created during local builds
+*    
+!.*  
+!.*/** 
+
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE/editor
+.vscode/
+.idea/
+*.user
+*~
+.DS_Store
+*.swp
