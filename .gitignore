@@ -13,8 +13,9 @@
 
 # ignore common no-extension executables created during local builds
 *    
-!.*  
-!.*/** 
+!*/ 
+!*.cpp       
+!**/*.cpp 
 
 
 # CMake
